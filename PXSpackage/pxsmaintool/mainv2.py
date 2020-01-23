@@ -425,6 +425,6 @@ class PixelSort:
 
 pxs = PixelSort(__args)
 
-pxs.turn_to_gif(22, __args.animation)
+pxs.turn_to_gif(22, __args.animation)    #makes gif by default. change to pxs.turn_to_gif(1, __args.animation)  for singular image
 
 
